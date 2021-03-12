@@ -2,7 +2,7 @@
 
 # Lost Heritage
 
-[![Actions Status](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/workflows/Tests/badge.svg)](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/actions)
+[![Actions Status](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/workflows/CI/badge.svg)](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/actions)
 
 The first part of this documentation is divided into English and Portuguese languages as it is a project developed for a cause in Portugal. However, it may be adapted to any other country easily. In fact, the maintainers encourage that and commit to provide help needed to deploy the solution.
 
