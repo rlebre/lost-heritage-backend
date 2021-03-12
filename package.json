@@ -6,8 +6,10 @@
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
+    "test2": "lint-staged",
     "deploy": "heroku builds:create -a lost-heritage",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "echo \"Error: no build specified\" && exit 0"
   },
   "author": "Rui Lebre",
   "license": "GPL-3.0-only",
@@ -30,6 +32,17 @@
     "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "husky": "=4",
+    "lint-staged": ">=10",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }
