@@ -1,6 +1,4 @@
-<img src="https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/blob/master/banner.png" alt="logo" width="400"/>
-
-# Lost Heritage
+<img src="https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/blob/main/banner.png" alt="logo" width="500"/>
 
 [![Actions Status](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/workflows/CI/badge.svg)](https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/actions)
 
@@ -106,7 +104,7 @@ $ yarn install
 ### Start the app in development mode
 
 ```bash
-$ yarn run start-devdev
+$ yarn run start-dev
 ```
 
 # Contributing
