@@ -1,4 +1,4 @@
-<img src="https://github.com/rlebre/lost-heritage/blob/master/banner.png" alt="logo" width="400"/>
+<img src="https://github.com/Digital-Initiative-Aveiro/lost-heritage-backend/blob/master/banner.png" alt="logo" width="400"/>
 
 # Lost Heritage
 
